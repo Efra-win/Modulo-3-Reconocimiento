@@ -1,0 +1,39 @@
+	Dork: 		
+intitle:"index of" "backup"
+
+	Qué busca:
+Busca directorios abiertos con la palabra “backup”.
+
+	Tipo de exposición:	
+Detecta respaldos expuestos en servidores web, que pueden contener bases de datos, configuraciones o información sensible.
+
+	Categoría:
+Files containing juicy info
+
+---------------------------------------------------------------------
+
+	Dork:		
+filetype:sql "insert into" "values"
+
+	Qué busca:
+Busca archivos .sql con sentencias de inserció
+
+	Tipo de exposición:
+Exposición de bases de datos completas (usuarios, contraseñas, registros).
+
+	Categoría:
+Sensitive online data / Database files
+
+---------------------------------------------------------------------
+
+	Dork:	
+inurl:"/phpmyadmin/" "Welcome to phpMyAdmin"
+
+	Qué busca:
+Localiza paneles de administración de bases de datos MySQL.
+
+	Tipo de exposición:
+Detecta interfaces de administración accesibles públicamente, que podrían ser explotadas si no tienen autenticación fuerte.
+
+	Categoría:
+Web server detection / Vulnerable files
