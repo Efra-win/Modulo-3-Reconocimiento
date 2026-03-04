@@ -29,7 +29,7 @@ En el se encuentra...
 Ingresé a [Exploit Database](https://www.exploit-db.com/google-hacking-database) para buscar dorks.
 
 1. Encontre **3 dorks**.  
-2. En la documentacion de detalla cuales son y sus caracteristicas como:  
+2. En la documentacion se detalla cuales son y sus caracteristicas como:  
    - Qué buscan.  
    - Qué tipo de exposición detectan.  
    - En qué categoría están clasificados.
